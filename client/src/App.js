@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import Axios from "axios";
-import PlayerTable from "./components/PlayerTable";
-import Header from "./components/Header";
+import PlayerTable from "./components/PlayerTable.js";
+import Header from "./components/Header.js";
 
 class App extends React.Component {
   constructor() {

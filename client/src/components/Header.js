@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useDarkMode } from "../hooks/useDarkMode";
+import { useDarkMode } from "../hooks/useDarkMode.js";
 
 const Header = () => {
   const [darkMode, setDarkMode] = useDarkMode();
